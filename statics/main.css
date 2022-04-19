@@ -1,0 +1,37 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --background--color: #06ced0;
+    --nav--color: #D6AFDC;
+}
+
+html {
+    background: var(--background--color);
+}
+
+nav.inicio {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    padding: 20px;
+    background: var(--nav--color);
+}
+
+a {
+    color: #fff;
+    justify-content: left;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: blue;
+}
+
+h1 {
+    margin: 10px 15px;
+}
